@@ -8,9 +8,9 @@ Designing a programming language:-
      We are designing a programming language which is inspired by C and its descendants, but simpler. As we know the compilable language are easier to debug, So we are going to design a compile language BEGO. The programming paradigm of this language is imperative as the program written in this language simply gives the solution to the specific problem. This language is going to be specify how to be done control flow of computation. 
 
 U.S.P. for the language:- 
-1.To make learning of programming language simpler.
-2.To avoid unnecessary syntax error while writing the program.
-3.To make the code length smaller.  
+1.To make learning of programming language simpler. 
+2.To avoid unnecessary syntax error while writing the program. 
+3.To make the code length smaller.   
 
 To do’s and don’ts in programming language:-
 
