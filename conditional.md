@@ -1,15 +1,15 @@
-//example 1 
-
+**Example 1** 
+```py
 import lib 
 var a, b
 out ('enter value of a and b')
 in (a , b )
 if (a=b)
 	out ( 'numbers are equal' )
+```
 
-
-//example 2 
-
+**Example 2** 
+```py
 import  lib
 var roll
 out('enter your roll number\n')
@@ -18,10 +18,10 @@ if (roll > 0)
     out('valid roll number\n')
 else 
     out('invalid roll number\n')
+```
 
-
-//example 3
-
+**Example 3**
+```py
 import lib
 var a, b, c
 out('enter two numbers\n')
@@ -31,10 +31,10 @@ if (b == 0)
 else 
     c = a/b
     out  (c)
+```
 
-
-//example 4
-
+**Example 4**
+```py
 import lib
 var age 
 out('enter your age\n')
@@ -47,9 +47,9 @@ if(age<12 or age>50)
     out('Eligible for the offer\n')
 else
     out('Not Eligible for the offer\n')
-
-// example 5
-
+```
+**Example 5**
+```py
 import lib
 var a,b,c
 out('Enter 3 no.s\n')
@@ -60,18 +60,18 @@ else if(b>c)
     out(b,'\n')
 else
     out(c,'\n')
-
-//example 6 
-
+```
+**Example 6** 
+```py
 import lib 
 var a, b;                                       //semi colon was not required 
 out ('enter value of a and b\n')
 in (a , b )
 if (a=b)
     out ( 'numbers are equal' )
-
-//example 7
-
+```
+**Example 7**
+```py
 import lib
 var a, b, c
 out (enter two numbers\n)                         // out statement requires single quote around a strings
@@ -81,9 +81,9 @@ if (b == 0)
 else 
     c = a/b
     out  (c)
-
-//example 8
-
+```
+**Example 8**
+```py
 import  lib
 var roll
 out('enter your roll number\n')
@@ -92,10 +92,10 @@ if (roll > 0)
     out('valid roll number\n')
     else                                         // indentation of else should be same as if condition
     out('invalid roll number\n')
+```
 
-
-//example 9
-
+**Example 9**
+```py
 import lib
 var a,b,c
 out('Enter 3 no.s\n')
@@ -106,9 +106,9 @@ else if(b>c)
     out(b,'\n')
 else
     out(c,'\n')
-
-//example 10
-
+```
+**Example 10**
+```py
 import  lib
 int  roll                                        //no need to define variable types
 out('enter your roll number\n')
@@ -117,3 +117,4 @@ if (roll > 0)
     out('valid roll number\n')
 else 
     out('invalid roll number\n')
+```
