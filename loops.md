@@ -2,7 +2,7 @@
 ```py
 import lib
 var n, sum=0
-out ('Enter a no.\n')
+out ('Enter a number \n')
 in (n)
 
 
