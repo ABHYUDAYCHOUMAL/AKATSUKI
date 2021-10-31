@@ -6,7 +6,7 @@ out ('Enter a no.\n')
 in (n)
 
 
-for i=1:i++ (i<=n)
+for i in (n)
     sum = sum + i
 
 out ('Sum to First ', n, ' Natural no.s is ', sum)
@@ -18,7 +18,7 @@ var n
 out ('Enter a no. \n')
 in (n)
 
-for i=1:i++ (i<=n)
+for i in (n)
     if(n%i==0)
         out(i, ' ')
 ```
@@ -30,7 +30,7 @@ var n,count=0
 out ('Enter a no. ')
 in (n)
 
-for i=1:i++ (i<=n)
+for i in (n)
     if(n%i==0)
         count++
 
@@ -77,7 +77,7 @@ var n, sum=0
 out ('Enter a no.\n')                   
 in (n)
 
-for (var i=1; i<=n; i++)                                // use predefined syntax for "for as initialisation : increment (condition)"
+for var i in (n)                                // use predefined syntax for "for as  in (initialisation, range, increment)"
     sum = sum + i
 
 out ('Sum to First ', n, ' Natural no.s is ', sum)
@@ -90,7 +90,7 @@ var n
 out ('Enter a no. \n')
 in (n)
 
-for  var i=1:i++ (i<=n)                                 // no need to declare the variable   
+for  var i in (n)                                 // no need to declare the variable   
     if(n%i==0)
         out(i, ' ')
 ```
@@ -102,7 +102,7 @@ var n,count=0
 out ('Enter a no. ')
 in (n)
 
-for i=1:i++ i<=n                                     // condition should be inside the brackets
+for i in n                                      // condition should be inside the brackets
     if(n%i==0)
         count++
 
