@@ -99,7 +99,7 @@ out (sum)
 import lib
 array A[2][3] = {3, 3, 3, 3, 3, 3}
 array B[2][3] = {1, 1, 1, 1, 1, 1}
-array C[2][3]
+array C[2][2]                                 // index of array C is not complete as we are putting it in
 
 for i in (2)
     for j in (3)
